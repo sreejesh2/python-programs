@@ -1,0 +1,41 @@
+
+h1{
+    text-align: center;
+    color: aqua;
+}
+.section{
+  
+    color: white;
+    border: 1px black solid;
+    width: 300px;
+    height: 200px;
+
+}
+.row1{
+    background-color: blue;
+}
+.row2{
+    background-color: rgb(138, 27, 80);
+}
+.row3{
+    background-color: rgb(30, 189, 21);
+}
+.container{
+  
+    text-align: center;
+    width: 450px;
+    height: 150px;
+    border: 4px rgb(10, 9, 9) dotted;
+}
+.row4{
+    background-color: brown;
+}
+.row5{
+    background-color: blueviolet;
+}
+div{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
