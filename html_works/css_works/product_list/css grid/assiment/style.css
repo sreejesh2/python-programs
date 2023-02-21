@@ -1,4 +1,5 @@
 body{
+    background-color: black;
     margin: 0;
     box-sizing: border-box;
 }
@@ -59,7 +60,7 @@ li{
        color: rgb(251, 253, 253,0.8);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     letter-spacing: 1px;
-    line-height: 50px;
+    line-height: 5vh;
 }
 ul{
     margin-top: 7vh;
@@ -78,14 +79,14 @@ ul{
     
 }
 p{
-    line-height: 50px;
+    line-height: 6vh;
     letter-spacing: 1px;
     font-size: 1.2rem;
     font-weight: 550;
     color:rgba(38, 28, 28, 0.8); ;
 }
 .details{
-    line-height: 30px;
+    line-height:4vh;
 }
 strong{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -98,4 +99,43 @@ strong{
     margin-top: 9vh;
     display: flex;
     width: 100%;
+}
+.row{
+    width: 80%;
+    height: 100vh;
+
+}
+@media(max-width:750px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .col{
+        width: 100%;
+    }
+    .col1{
+        width: 100%;
+        height:auto;
+    }
+    .range{
+        margin-top:1vh;
+    }
+    .con-details{
+        margin-top: 1vh;
+    }
+    p{
+        line-height: 5vh;
+    }
+    .details{
+        line-height: 2vh;
+    }
+   
+    .name{
+        margin-top: -6vh;
+    }
+    
+
+
+
 }

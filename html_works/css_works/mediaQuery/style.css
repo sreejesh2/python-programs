@@ -1,0 +1,38 @@
+
+.container {
+    color: white;
+    background-color: rgb(50, 133, 228);
+    height: 18vh;
+    
+    margin-top: 5vh;
+}
+.container:nth-child(1){
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.col1{
+    width: 30%;
+    
+   
+}
+.col2{
+    width: 30%;
+   
+}
+.container:nth-child(4){
+    margin-top: 5vh;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media screen and (max-width: 750px) {
+  .container, .col1,.col2{
+    width: 80%;
+    background-color: rgb(201, 204, 18);
+    color: rgb(16, 16, 16);
+    margin-left: auto;
+    margin-right: auto;
+   
+  }
+}

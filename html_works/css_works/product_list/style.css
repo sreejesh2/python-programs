@@ -3,7 +3,7 @@ body{
 }
 .card{
     width: 30%;
-    height: 550px;
+    height: 76vh;
     border: 1px solid black;
     background-color: white;
 }
@@ -85,4 +85,16 @@ p{
     cursor: pointer;
     background-color: rgb(216, 8, 8);
     border-radius: 5px;
+}
+@media(max-width:750px){
+    .container{
+        margin-top: 3vh;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .card{
+        width: 90%;
+        margin-top: 2vh;
+    }
 }
